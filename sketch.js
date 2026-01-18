@@ -27,7 +27,7 @@ function setup() {
 	// 2. ESCUCHAR el evento que envía el servidor
 	socket.on('update-value', (data) => {
 		valorRecibido = data;
-		console.log('📥 Valor recibido desde el emisor:', valorRecibido[i]);
+		// console.log('📥 Valor recibido desde el emisor:', valorRecibido);
 	});
 
 	// 
