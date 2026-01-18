@@ -63,9 +63,9 @@ function draw() {
 	let lineHeight = (height / nCanales);
 	fill(0);
 	textSize(barheight);
-	text(nombreDeCanal, barheight, lineHeight - barheight / 2);
+	text(nombreDeCanal, barheight, lineHeight * 2 / 2);
 
-	rect(100, lineHeight - barheight, valorRecibido * 4, barheight);
+	rect(100, lineHeight * 2, valorRecibido * 4, barheight);
 
 
 	// Si el puerto está abierto, enviamos datos
